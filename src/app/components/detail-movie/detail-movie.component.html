@@ -1,0 +1,11 @@
+<div class="card m-2">
+    <div class="card-body">
+      <h5 class="card-title">{{ movie.title }}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{ movie.director }}</h6>
+      <p class="card-text">Release Year: {{ movie.releaseYear }}</p>
+      <p class="card-text">Genre: {{ movie.genre }}</p>
+      <p class="card-text">Favorite: {{ movie.favourite ? 'Yes' : 'No' }}</p>
+
+      <a routerLink="/movies" class="btn btn-primary">Go Back</a>
+    </div>
+  </div>
